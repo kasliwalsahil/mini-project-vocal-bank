@@ -1,0 +1,207 @@
+.homepage{
+    height: 100vh;
+}
+
+.section{
+    width: 100%;
+    /* height: 100vh; */
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0px 40px;
+}
+.pay-now-btn{
+    display: flex;
+    /* height: 30px; */
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+.tran{
+    padding-top: 23px;
+
+}
+.section1-left{
+    font-size: 35px;
+    color: blue;
+    font-weight: bold;
+}
+.vault{
+    color: black;
+}
+.welcome1{
+    font-size: 30px;
+    color: rgb(72, 72, 72);
+}
+
+.section1-right{
+    /* border: 1px solid red; */
+    font-size: 25px;
+    margin-right: 35px;
+    transition: 1.3s;
+}
+.create-acc:hover{
+    color: rgb(128, 128, 128);
+}
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.section2-left{
+    width: 35%;
+    margin-top: 10px;
+    background-image: url("../assets/Account-Balance.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 230px;
+    color: white;
+    /* border: 1px solid red; */
+}
+.section2-left>p{
+    padding: 30px 35px;
+}
+.section2-left>p>span{
+    margin-top: 40px;
+}
+.balance{
+    font-size: 25px;
+}
+.expiring-date{
+    margin-left: 30px;
+}
+.section2-right{
+    width: 55%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    align-items: center;
+}
+
+
+.bank-img{
+    width: 80px;
+    /* border: 1px solid red; */
+}
+.service-img{
+    width: 80px;
+    /* border: 1px solid red; */
+}
+.bank-img>img{
+    margin-left: 55px;
+}
+.service-img>img{
+    margin-left: 20px;
+}
+.section2-right1>button{
+    width: 40%;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    /* padding: 20px; */
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.section2-right1>button:hover{
+    /* border: 1px solid red; */
+    transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.income{
+    color: rgb(87, 87, 87);
+}
+.section2-right1>div>p{
+    font-size: 26px;
+    color: rgb(30, 30, 30);
+}
+.section2-right1>div>span{
+    font-size: 10px;
+}
+.section2-right1>div{
+    font-size: 15px;
+}
+
+.section3{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.service{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+.services1{
+    /* border: 1px solid black; */
+    /* height: 150px; */
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+.services1:hover{
+    transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.section3_box{
+    border: 1px solid black;
+}
+.transaction-history{
+    padding-left: 60px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.login-to-see-your-transaction{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    justify-content: center;
+}
+.entries{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 35px;
+}
+.baki-boxes{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    font-size: 15px;
+}
+.success{
+    font-size: 13px;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    background-color: rgb(179, 255, 179);
+    border-radius: 25px;
+}
+.failed{
+    font-size: 13px;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    border-radius: 25px;
+    background-color: rgb(255, 193, 193);
+}
